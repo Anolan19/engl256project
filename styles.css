@@ -1,10 +1,10 @@
 
 body{
-    background: url('https://i.imgur.com/xb7fkjQ.gif') no-repeat center center fixed;
+    background: url('https://docs.aws.amazon.com/lumberyard/latest/userguide/images/shared-parallax-example.gif') no-repeat center center fixed;
     background-size: cover;
-    text-decoration-color: aliceblue;
-    color: #EBDEF0  ;
-    text-shadow: 1px 0 3px floralwhite, 1px 2px 5px darkslategray;
+    text-decoration-color: whitesmoke;
+    color: steelblue  ;
+    text-shadow: 1px 0 3px darkslategrey;
     margin-top: 60px; /* Add a top margin to avoid content overlay */
 
 }
@@ -17,9 +17,12 @@ h2 {
     text-align: center;
     color: ghostwhite;
 }
+h3 {
+    color: lightgreen;
+}
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: darkred;
     overflow: hidden;
     padding-top: 40px;
     margin-top: -40px;
@@ -47,5 +50,8 @@ h2 {
 .topnav a.active {
     background-color: palegoldenrod;
     color: #841909
+}
+a {
+    color: lightseagreen;
 }
 
