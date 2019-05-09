@@ -4,7 +4,7 @@
     <link rel = "stylesheet" type = "text/css" href = "./styles.css">
 
     <meta charset="UTF-8">
-    <title>About Us</title>
+    <title>My Money</title>
 
 </head>
 
@@ -29,3 +29,38 @@
 
 </body>
 </html>
+
+<script>
+var i =0;
+while(i<10000){
+    //
+    // var ul = document.getElementById("moneylist");
+    // var li = document.createElement('li');
+    // li.innerHTML=(document.createTextNode("<li> <a href=\"gold.html\"> One of my many stacks of money.</a> </li>\n"));
+    // ul.appendChild(li);
+    // li.innerHTML=(document.createTextNode("<li> <a href=\"hero.html\"> One of the many dead heroes of old that I hath killed.</a> </li>\n"));
+    //
+    // ul.appendChild(li);
+
+
+    var a = document.createElement("a");
+    var ulist = document.getElementById("moneylist");
+    var newItem = document.createElement("li");
+
+    a.textContent = "One of my many stacks of money.";
+    a.setAttribute('href', "gold.html");
+    newItem.appendChild(a);
+    ulist.appendChild(newItem);
+
+    var a = document.createElement("a");
+    var ulist = document.getElementById("moneylist");
+    var newItem = document.createElement("li");
+
+    a.textContent = "One of the many heroes of old that I hath killed during my conquest.";
+    a.setAttribute('href', "hero.html");
+    newItem.appendChild(a);
+    ulist.appendChild(newItem);
+
+    i++;
+}
+</script>
